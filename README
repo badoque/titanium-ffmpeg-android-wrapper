@@ -4,18 +4,16 @@ Titanium Appcelerator Wrapper for Android FFMPEG Module (https://github.com/Writ
 USAGE
 -------------
 
-`var ffmpeg = require('com.badoque.ffmpeg.android');
-
-
-```
+```javascript
+var ffmpeg = require('com.badoque.ffmpeg.android')
 var cmd = "-y -i " +  inputVideoPath + " -strict experimental -s 160x120 -r 25 -vcodec mpeg4 -b 150k -ab 48000 -ac 2 -ar 22050 "+ outputVideoPath; //comand to compress video
 ffmpeg.execute({
-		cmd: cmd,
-		successCallback: function(e){
-			//sucesss
-		},
-		errorCallback: function(e){
-			//error
-		}
-	});
+	cmd: cmd,
+	successCallback: function(e){
+		//sucesss
+	},
+	errorCallback: function(e){
+		//error
+	}
+});
 ```
