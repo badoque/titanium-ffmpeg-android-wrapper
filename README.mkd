@@ -1,4 +1,4 @@
-Titanium Appcelerator Wrapper for Android FFMPEG Module (https://github.com/WritingMinds/ffmpeg-android-java)
+##Titanium Appcelerator Wrapper for Android FFMPEG Module (https://github.com/WritingMinds/ffmpeg-android-java)
 ===========================================
 
 USAGE
