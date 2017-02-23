@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 3
+architectures: armeabi-v7a x86
+description: ffmpeg-android-wrapper
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2017 by Your Company
+
+# these should not be edited
+name: ffmpeg-android-wrapper
+moduleid: com.badoque.ffmpeg.android
+guid: ab664d71-cc3a-470b-b0cb-51a81767b267
+platform: android
+minsdk: 6.0.2.v20170215162535

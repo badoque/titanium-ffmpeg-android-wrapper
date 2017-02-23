@@ -1,0 +1,16 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name FfmpegAndroidWrapperBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.badoque.ffmpeg.android.FfmpegAndroidWrapperModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.badoque.ffmpeg.android.FfmpegAndroidWrapperModule, ::com::badoque::ffmpeg::android::FfmpegAndroidWrapperModule::bindProxy, ::com::badoque::ffmpeg::android::FfmpegAndroidWrapperModule::dispose
+%%

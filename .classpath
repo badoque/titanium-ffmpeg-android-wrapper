@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="android/src"/>
+	<classpathentry kind="src" path="android/build/.apt_generated"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/media/hugo/c671418d-e30b-4799-8881-8afc277fd8d3/android-sdk-linux/platforms/android-23/android.jar"/>
+	<classpathentry kind="lib" path="/media/hugo/c671418d-e30b-4799-8881-8afc277fd8d3/android-sdk-linux/add-ons/addon-google_apis-google-23/libs/maps.jar"/>
+	<classpathentry kind="lib" path="/home/hugo/.titanium/mobilesdk/linux/6.0.2.v20170215162535/android/titanium.jar"/>
+	<classpathentry kind="lib" path="/home/hugo/.titanium/mobilesdk/linux/6.0.2.v20170215162535/android/kroll-common.jar"/>
+	<classpathentry kind="lib" path="/home/hugo/.titanium/mobilesdk/linux/6.0.2.v20170215162535/android/kroll-apt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
